@@ -4,6 +4,10 @@ const email = document.querySelector("#email");
 const assunto = document.querySelector("#assunto");
 const mensagem = document.querySelector("#mensagem");
 
-button.addEventListener("submit", () => {
-    alert("Obrigado pelo Contato, retornarei em breve por e-mail!")
+
+button.addEventListener("click", () => {
+    if(nome != "" && email != "" && assunto != assunto && mensagem != "") {
+        alert("Obrigado pelo Contato, retornarei em breve por e-mail!");
+    }
+    
 })
