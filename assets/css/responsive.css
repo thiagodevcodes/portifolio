@@ -1,6 +1,7 @@
 @media screen and (max-width: 600px) {
     .one-container {
         padding-bottom: 50px;
+        gap: 30px;
     }
 
     .navbar-list {
@@ -34,10 +35,14 @@
         font-size: 12pt;
         color: white;
         width: 350px;
+        text-align: center;
     }
 
     .one-title {
         font-weight: bold;
         font-size: 19pt;
+        text-align: center;
+
     }
+
 }
