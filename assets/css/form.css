@@ -14,7 +14,6 @@
     border-radius: 8px;
     display: block;
     width: 100%;
-    margin-top: 16px;
     font-size:16px;
     color:#424242;
     -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
@@ -46,7 +45,7 @@
   }
   
   .formulario textarea {
-    height: 174px;
+    height: 188px;
   }
 
   .metade {
@@ -62,4 +61,8 @@
   @media (max-width: 768px) {
     
     .metade { width:100%; float:none; margin-bottom:0; }
+  }
+
+  .label {
+    text-align: left;
   }
