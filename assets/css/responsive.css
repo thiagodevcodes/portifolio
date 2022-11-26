@@ -1,0 +1,43 @@
+@media screen and (max-width: 600px) {
+    .one-container {
+        padding-bottom: 50px;
+    }
+
+    .navbar-list {
+        display: none;
+    }
+
+    .header-main {
+        z-index: 1;
+    }
+
+    #menu-mobile {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 70vh;
+        top: 50px;
+        left: -100%;
+        background-color: rgb(0, 0, 0);
+        text-align: center;
+        transition: 0.5s;
+        z-index: 1;
+    }
+
+    #button-mobile {
+        display: block;
+        filter: invert(1);
+    }
+
+
+    .one-paragraph {
+        font-size: 12pt;
+        color: white;
+        width: 350px;
+    }
+
+    .one-title {
+        font-weight: bold;
+        font-size: 19pt;
+    }
+}

@@ -34,6 +34,7 @@
     background: #4557fd ;
     cursor: pointer;
     transition: 0.5s;
+    margin-top: 30px;
   }
 
   .formulario .btn-submit:hover {
