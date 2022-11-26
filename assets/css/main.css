@@ -149,16 +149,24 @@ body::-webkit-scrollbar-thumb {
 }
 
 .projetos-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
     height: 250px;
     width: 250px;
     background-color: black;
     border: 2px solid #4557fd;
     transition: 500ms;
-
 }
 
-.projetos-child:hover {
-    filter: brightness(50%);
+.projetos-link {
+    background-color: #4557fd;
+    margin-bottom: 30px;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
 
 .projetos-title {
