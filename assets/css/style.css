@@ -22,7 +22,7 @@ body::-webkit-scrollbar {
   
 body::-webkit-scrollbar-thumb {   
     background-color: #4557fd; 
-    border-radius: 50px;  
+
 }
 
 * {
@@ -32,14 +32,9 @@ body::-webkit-scrollbar-thumb {
     font-family: 'Nunito', sans-serif;
 }
 
-.header-main {
-    background-color: black;
-    width: 100%;
-}
-
 .logo-img {
+    margin-top: 5px;
     width: 40px;
-
 }
 
 .navbar {
@@ -54,16 +49,19 @@ body::-webkit-scrollbar-thumb {
     cursor: pointer;
 }
 
+.navbar-links {
+    padding: 11.5px;
+    border-bottom: 3px solid #000000;
+    transition: 500ms;
+}
+
+.navbar-links:hover {
+    border-bottom: 3px solid #4557fd;
+}
+
 .navbar-text {
     color: white;
     font-weight: bold;
-    padding: 20px;
-    border-bottom: 4px solid rgb(0, 0, 0);
-}
-
-.navbar-text:hover {
-    transition: 500ms;
-    border-bottom: 4px solid #4557fd;
 }
 
 .navbar-logo {
@@ -83,7 +81,7 @@ body::-webkit-scrollbar-thumb {
     justify-content: center;
     gap: 100px;
     height: 91vh;
-    
+    min-height: 100vh;
 }
 
 .one-img {
@@ -148,7 +146,7 @@ body::-webkit-scrollbar-thumb {
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 40px;
+    padding: 100px;
 }
 
 .three-container {
@@ -156,13 +154,13 @@ body::-webkit-scrollbar-thumb {
     color: white;
     text-align: center;
     padding: 40px;
+    min-height: 100vh;
 }
 
 .four-container {
     background-color: black;
     color: white;
     text-align: center;
-
     padding: 40px;
     display: flex;
     justify-content: center;
@@ -248,4 +246,67 @@ body::-webkit-scrollbar-thumb {
 
 .form-input {
     width: 500px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh; 
+}
+
+.modal-sucess {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: white;
+    width: 400px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.modal-link {
+    text-decoration: none;
+}
+
+.modal-button {
+    margin-top: 15px;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: none;
+    background-color: #4557fd;
+    color: white;
+}
+
+.modal-button:hover {
+    background-color: #021086;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 230px;
+    background-color:rgb(27, 27, 27);
+    color: white;
+}
+
+.footer-list {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+}
+
+.footer-paragraph {
+    color: gray;
 }

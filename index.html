@@ -7,6 +7,7 @@
     <title>Portfólio - Thiago Silva Rodrigues</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/form.css">
+    
 </head>
 <body class="fadeIn">
     <header class="header-main">
@@ -16,11 +17,11 @@
             </div>
 
             <ul class="navbar-list">
-                <a class="navbar-links" href="#sobre"><li class="navbar-text">Sobre</li></a>
-                <a class="navbar-links" href="#tecnologias"><li class="navbar-text">Tecnologias</li></a>
-                <a class="navbar-links" href="#projetos"><li class="navbar-text">Projetos</li></a>
-                <a class="navbar-links" href="#contatos"><li class="navbar-text">Contatos</li></a>
-                <a class="navbar-links" download="curriculo-thiagosilvarodrigues.pdf" href="/assets/documents/curriculo-thiago-silva-rodrigues.pdf"><li class="navbar-text">Currículo</li></a>
+                <li class="navbar-text"><a class="navbar-links" href="#sobre">Sobre</a></li>
+                <li class="navbar-text"><a class="navbar-links" href="#tecnologias">Tecnologias</a></li>
+                <li class="navbar-text"><a class="navbar-links" href="#projetos">Projetos</a></li>
+                <li class="navbar-text"><a class="navbar-links" href="#contatos">Contatos</a></li>
+                <li class="navbar-text"><a class="navbar-links" download="curriculo-thiagosilvarodrigues.pdf" href="/assets/documents/curriculo-thiago-silva-rodrigues.pdf">Currículo</a></li>
             </ul>
         </nav>
     </header>
@@ -119,7 +120,7 @@
         <section class="four-container" id="contatos">
             <h2 class="h2-titles">Contato</h2>
             
-            <form class="formulario" method="post" action="/index.html" netlify>
+            <form class="formulario" method="post" action="/sucess.html" netlify>
                 <div class="metade left">
                   <label class="label" for="nome">Nome</label>
                   <input name="nome" type="text" placeholder="Digite seu nome" required="">
@@ -139,10 +140,29 @@
                 <input id="submit-btn" type="submit" value="Enviar Dados" class="btn-submit">
             </form>
         </section>
-    </main>
-    <footer>
+        <footer class="footer-main">
+            
+            
+            <ul class="navbar-list">
+                <li class="navbar-text"><a class="footer-links" href="#sobre">Sobre</a></li>
+                <li class="navbar-text"><a class="footer-links" href="#tecnologias">Tecnologias</a></li>
+                <li class="navbar-text"><a class="footer-links" href="#projetos">Projetos</a></li>
+                <li class="navbar-text"><a class="footer-links" href="#contatos">Contatos</a></li>
+                <li class="navbar-text"><a class="footer-links" download="curriculo-thiagosilvarodrigues.pdf" href="/assets/documents/curriculo-thiago-silva-rodrigues.pdf">Currículo</a></li>
+            </ul>
 
-    </footer>
-    <script src="/assets/js/form.js"></script>
+            <div>
+                <a href=""><button class="one-buttons"><img class="one-buttons-img" src="/assets/img/Instagram-Logo.png" alt=""></button></a>
+                <a target="_blank" href="https://www.linkedin.com/in/thiagosilvaweb/"><button class="one-buttons"><img class="one-buttons-img" src="/assets/img/linkedin.png" alt=""></button></a>
+                <a target="_blank" href="https://github.com/thiagodevcodes"><button class="one-buttons"><img class="one-buttons-img" src="/assets/img/github.png" alt=""></button></a>
+                <a target="_blank" href="https://wa.me/5579988674823"><button class="one-buttons"><img class="one-buttons-img" src="/assets/img/whatsapp.png" alt=""></button></a>
+            </div> 
+            
+            <p class="footer-paragraph">2022 &copy Thiago Silva Rodrigues</p>
+        </footer>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="/assets/js/ancor.js"></script>
 </body>
 </html>
