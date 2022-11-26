@@ -12,6 +12,13 @@
         z-index: 1;
     }
 
+    .one-container-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     #menu-mobile {
         display: flex;
         flex-direction: column;
