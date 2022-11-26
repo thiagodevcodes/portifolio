@@ -10,6 +10,9 @@
 
     .header-main {
         z-index: 1;
+        position: fixed;
+        width: 100%;
+        background-color: black;
     }
 
     .one-container-box {
@@ -37,6 +40,9 @@
         filter: invert(1);
     }
 
+    .one-img {
+        margin-top: 100px;
+    }
 
     .one-paragraph {
         font-size: 12pt;
