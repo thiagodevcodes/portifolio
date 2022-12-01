@@ -20,8 +20,7 @@ class MobileNavbar {
 
   handleClick() {
     this.navList.classList.toggle(this.activeClass);
-    this.mobileMenu.classList.toggle(this.activeClass);
-    this.animateLinks();
+    this.mobileMenu.classList.toggle(this.activeClass);     
   }
 
   addClickEvent() {
@@ -41,4 +40,6 @@ const mobileNavbar = new MobileNavbar(
   ".nav-list",
   ".nav-list li",
 );
+
 mobileNavbar.init();
+
