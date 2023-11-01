@@ -62,7 +62,7 @@ body::-webkit-scrollbar-thumb {
     margin-bottom: 30px;
     color: white;
     width: 500px;
-    
+    text-align: justify;
 }
 
 .one-title {
